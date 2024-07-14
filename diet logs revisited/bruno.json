@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "diet logs revisited",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

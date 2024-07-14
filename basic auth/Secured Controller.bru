@@ -1,0 +1,16 @@
+meta {
+  name: Secured Controller
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{spring-boot}}/secured
+  body: none
+  auth: basic
+}
+
+auth:basic {
+  username: vasouv
+  password: vasouv
+}

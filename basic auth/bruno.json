@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "basic auth",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

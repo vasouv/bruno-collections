@@ -1,0 +1,18 @@
+meta {
+  name: Create appointment for user
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{spring-boot}}/appointments/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "date": "2022-11-07",
+      "userId": 2
+  }
+}

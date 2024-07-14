@@ -1,0 +1,18 @@
+meta {
+  name: Add measurement to user
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{spring-boot}}/measurements/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "date": "2022-11-06",
+      "weight": 104.7
+  }
+}

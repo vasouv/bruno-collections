@@ -1,0 +1,19 @@
+meta {
+  name: Save new user
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{spring-boot}}/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "email": "vasouv@mail.com",
+      "username": "vasouv",
+      "password": "password123"
+  }
+}

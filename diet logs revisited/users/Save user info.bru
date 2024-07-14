@@ -1,0 +1,22 @@
+meta {
+  name: Save user info
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{spring-boot}}/users/2/info
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Vasilis",
+      "surname": "Souvatzis",
+      "gender": "M",
+      "dateOfBirth": "1987-08-04",
+      "height": "1.76",
+      "weight": "104.3"
+  }
+}

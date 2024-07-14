@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "spring boot security in action",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

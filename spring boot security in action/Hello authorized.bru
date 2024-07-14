@@ -1,0 +1,16 @@
+meta {
+  name: Hello authorized
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{spring-boot}}/hello
+  body: none
+  auth: basic
+}
+
+auth:basic {
+  username: vasouv
+  password: 12345
+}
